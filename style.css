@@ -1,0 +1,303 @@
+:root{
+
+    --text-sub-heading:#E9BD8C;
+}
+
+:root{
+
+    --btn-secondary: #933C24;
+    --btn-hover-secondary: #cb5d3f;
+    --btn-active-secondary: #722e1b;
+
+}
+
+:root{
+
+    --white-sub-heading: #5D5D5D;
+}
+
+.h-heading{
+
+    font-family: "Sansita Swashed";
+}
+.header-section{
+
+    background-image: url("../images/bakery\ header.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.sub-heading{
+
+    color: var(--text-sub-heading);
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.h-learn-more{
+
+    color: var(--text-sub-heading);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* .btn-secondary{
+
+    background-color: var(--btn-shop-now);
+    border-color: var(--btn-shop-now);
+}
+
+.btn-secondary:hover{
+
+    background-color: var(--btn-shop-now);
+    border-color: var(--btn-shop-now);
+}
+
+.btn-secondary:active{
+
+    background-color: var(--btn-shop-now) !important;
+    border-color: var(--btn-shop-now) !important;
+} */
+
+.btn-secondary{
+
+    --bs-btn-bg: var(--btn-secondary);
+    --bs-btn-border-color: var(--btn-secondary);
+
+    --bs-btn-hover-bg:var(--btn-hover-secondary);
+    --bs-btn-hover-border-color:var(--btn-hover-secondary);
+
+    --bs-btn-active-bg:var(--btn-active-secondary);
+    --bs-btn-active-border-color:var(--btn-active-secondary);
+}
+
+/* .product-card{
+
+    background-image: url(../images/Top\ products\ bg\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.product-card img{
+
+    height: 250px;
+    object-fit: contain;
+    padding: 15px;
+
+}
+
+.product-title{
+
+    width: 100px;
+} */
+
+.top-product-heading{
+
+    font-family: "Sansita Swashed";
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+@media(max-width:785px){
+ 
+    .top-product-heading{
+
+        font-size: 2.8rem;
+    }
+}
+
+@media(max-width:576px){
+ 
+    .top-product-heading{
+
+        font-size: 2.1rem;
+    }
+}
+
+.top-1{
+
+    background-image: url("../images/Top\ products\ bg\ img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1rem;
+    border-radius: 12px;
+}
+
+
+.top-1 img{
+
+    height: 200px;
+}
+
+
+.bg-img{
+
+    background-image: url(../images/white-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    margin-top: 110px;
+}
+
+.white-heading{
+
+    color: var(--btn-secondary);
+
+}
+
+.subheading{
+
+    color: var(--white-sub-heading);
+    font-size: 23px;
+    font-weight: 400;
+    
+}
+
+.explore-heading{
+
+    font-family: "Sansita Swashed";
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+@media(max-width:785px) {
+
+    .explore-heading{
+
+        font-size: 2.8rem;
+    }
+}
+
+@media(max-width:576px) {
+
+    .explore-heading{
+
+        font-size: 2.1rem;
+    }
+}
+
+.exp-img{
+
+    /* height: 300px; */
+    width: 100%;
+    /* object-fit: cover; */
+    border-radius: 10px;
+
+}
+
+.nav-tabs{
+
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-tabs .nav-link{
+
+    border: none;
+    font-size: 1.2rem;
+    color: var(--white-sub-heading);
+    font-weight: 650;
+    background: transparent;
+    
+}
+
+.nav-tabs .nav-link.active{
+
+    color: var(--btn-secondary);
+    border-bottom: 3px solid #a0522d;
+    
+}
+
+.nav-tabs .nav-link:hover{
+
+    color: var(--btn-secondary);
+}
+
+.bag-img{
+
+    background-image: url(../images/about\ us\ bg-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    margin-top: 80px;
+
+}
+
+.about-heading{
+
+    
+     font-family: "Sansita Swashed";
+     margin-top: 100px;
+
+}
+
+.about-subheading{
+
+    color: #B9B9B9;
+    font-size: 21px;
+    font-weight: 400;
+    max-width: 300px; 
+   
+
+}
+
+.Featured-heading{
+
+     font-family: "Sansita Swashed";
+     font-size: 3.5rem;
+}
+
+@media(max-width: 785px){
+
+    .Featured-heading{
+
+        font-size: 2.8rem;
+
+    }
+}
+
+@media(max-width: 576px){
+
+    .Featured-heading{
+
+        font-size: 2.1rem;
+    }
+}
+
+/* .food-card{
+
+    width: 95%;
+} */
+
+.footer{
+
+    background-image: url(../images/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.follow{
+
+    color: var(--text-sub-heading);
+}
+
+.june{
+
+    color: var(--text-sub-heading);
+}
+
+.icon{
+    color: var(--text-sub-heading);
+}
